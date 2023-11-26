@@ -6,7 +6,7 @@ import * as queries from "@/graphql/queries";
 
 import config from "@/amplifyconfiguration.json";
 
-export const cookiesClient = generateServerClientUsingCookies({
+const cookiesClient = generateServerClientUsingCookies({
   config,
   cookies,
 });
